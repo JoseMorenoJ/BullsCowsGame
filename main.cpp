@@ -50,6 +50,7 @@ void PrintIntro()
 {
 	std::cout << "\n\n\n";
 	std::cout << "Hello guys, welcome to Bulls & Cows game.\n";
+	std::cout << "Hello guys, wellcome to Bulls & Cows game.\n";
 	std::cout << "==========================================\n\n";
 	std::cout << "Enjoy!\n\n";
 
