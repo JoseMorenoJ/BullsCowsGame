@@ -23,7 +23,7 @@ struct FBullCowCount
 {
 	int32 Bulls = 0;
 	int32 Cows = 0;
-	FString String = ""; //Cows and Bulls as comparing the try with the hidden word.
+	FString String; //Cows and Bulls as comparing the try with the hidden word.
 };
 
 //enum for the guess validation checks

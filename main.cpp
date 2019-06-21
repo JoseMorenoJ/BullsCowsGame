@@ -18,7 +18,6 @@
 #include <iostream>
 #include <string>
 #include "FBullCowGame.h"
-#include "lessons.h" //all the headers of the lessons functions.
 
 //To make the syntax Unreal-friendly.
 using FText = std::string; // FText is for interactions with the user: printing info.
@@ -50,7 +49,6 @@ void PrintIntro()
 {
 	std::cout << "\n\n\n";
 	std::cout << "Hello guys, welcome to Bulls & Cows game.\n";
-	std::cout << "Hello guys, wellcome to Bulls & Cows game.\n";
 	std::cout << "==========================================\n\n";
 	std::cout << "Enjoy!\n\n";
 

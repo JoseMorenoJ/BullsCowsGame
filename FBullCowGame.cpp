@@ -66,10 +66,9 @@ FBullCowCount FBullCowGame::SubmitValidGuess(FString ValidGuess)
 	const int32 WORD_SIZE = this->GetHiddenWordLength(); //same for guess and hidden word
 
 	FBullCowCount BullCowCount;
-	BullCowCount.String = FString('0', WORD_SIZE); //reset the String counter
+	BullCowCount.String.resize(WORD_SIZE); // FString('0', WORD_SIZE); //reset the String counter
 
 	for (int32 i = 0; i < WORD_SIZE; ++i) //Loop every ValidGuess letter
-	//TODO: redo the loops using "for (auto GuessLetter : Guess)", Modern C++
 	{
 		if (this->MyHiddenWord[i] == ValidGuess[i]) //BULL
 		{
@@ -85,6 +84,9 @@ FBullCowCount FBullCowGame::SubmitValidGuess(FString ValidGuess)
 					BullCowCount.Cows++;
 					BullCowCount.String[i] = 'C';
 					break;
+				}
+				else {
+					BullCowCount.String[i] = 'x';
 				}
 			}
 		}
