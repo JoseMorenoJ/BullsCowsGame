@@ -1,3 +1,7 @@
+## makefiles
+*.mk
+*.o
+
 ## Xcode files will come
 
 ## DS file
