@@ -142,4 +142,5 @@ bool AskToPlayAgain()
 	{
 		return false;
 	}
+    return true;
 }

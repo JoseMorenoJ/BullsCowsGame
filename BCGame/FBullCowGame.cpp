@@ -109,7 +109,7 @@ void FBullCowGame::Reset()
 	//TODO Ask for the hidden word length and store it
 	//set the hidden word: SetHiddenWord(Chosenlength)
 
-	const FString HIDDEN_WORD = "ant"; //it doesnt let us use constexpr here, too strong
+	const FString HIDDEN_WORD = "false"; //it doesnt let us use constexpr here, too strong
 	this->MyHiddenWord = HIDDEN_WORD;
 	this->MyCurrentTry = 1;
 	this->bGameWon = false;

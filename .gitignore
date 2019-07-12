@@ -1,8 +1,12 @@
+## Notes file
+notes.txt
+
 ## makefiles
 *.mk
 *.o
 
 ## Xcode files will come
+*.xcodeproj
 
 ## DS file
 .DS_Store
